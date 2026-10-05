@@ -1,0 +1,29 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Nuitka build output
+main.build/
+main.dist/
+*.build/
+*.dist/
+*.onefile-build/
+
+# Runtime/generated data
+chroma_db/
+
+# Sample/input data
+data/*
+!data/.gitkeep
+
+# Demo/video
+*.mp4
+
+# OS files
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
